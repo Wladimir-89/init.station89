@@ -68,7 +68,7 @@ uname -a
 df -h | head -n 2
 free -h | grep Mem
 
-echo
+
 echo ">> Введи 'exit' для завершения миссии или 'next' — чтобы продолжить исследование."
 while true; do
   read -p "> " input
